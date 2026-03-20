@@ -13,3 +13,7 @@ Route::get('/about', function () {
 Route::get('/info', function () {
     return view ("view");
 });
+
+Route::get('/all', function () {
+    return view ("all");
+});
